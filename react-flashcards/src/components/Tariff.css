@@ -1,0 +1,26 @@
+/* src/components/Tariff.css */
+.tariff {
+  border: 2px solid #ffffff;
+  /* border-radius: 10px; */
+  padding: 16px;
+  text-align: center;
+  max-width: 150px;
+  transition: 0.3s;
+  background-color: #f9f9f9;
+}
+
+.tariff h2 {
+  margin-bottom: 8px;
+}
+
+.tariff .price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.highlighted {
+  border-color: #4CAF50;
+  background-color: #eaffea;
+  transform: scale(1.05);
+}
